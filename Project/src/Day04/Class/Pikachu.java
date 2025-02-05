@@ -9,6 +9,8 @@ public class Pikachu {
 	public int energy;
 	public String type;
 	
+	
+	
 	//생성자
 	// - 객체가 생성될 때 실행되는 메소드
 	// - 객체의 변수를 초기화하는 역할
@@ -64,4 +66,15 @@ public class Pikachu {
 		//energy -=10;
 		return ("전광석화");
 	}
+
+	/** 
+	 * toString ()
+	 * 반환하는 문자열을 객체의 출력으로 대체해주는 메소드
+	 */
+
+	@Override
+	public String toString() {
+		return "Pikachu [energy=" + energy + ", type=" + type + "]";
+	}
+	
 }
